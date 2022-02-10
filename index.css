@@ -23,16 +23,28 @@ h1{
 h2{
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     position: relative;
-    top: 1650px;
+    top: 1600px;
 }
 
-.social-media{
-    text-align: left;
+.navigation-bar {
+    width: 100%;  
+    height: 80px; 
+    background-color:black; 
 }
-
-img .sm-img {
+.sm-icons{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
     height: auto;
-    width: 400px;
+    margin-right: 20px;
+    margin-top: 15px;    
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        
+    line-height: 80px;    
 }
